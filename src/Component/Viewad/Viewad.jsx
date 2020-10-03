@@ -53,6 +53,7 @@ export default class Viewad extends Component {
         </div>
         <div className="btn-group" role="group" aria-label="Third group">
         <button type="button" className="btn btn-secondary">Max</button>
+        <h1>gg</h1>
         </div>
         </div>  
         </div>    
