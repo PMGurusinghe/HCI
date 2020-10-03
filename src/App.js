@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Component/Fontawesome';
+import NavigationHeader from './Component/NavigationHeader/NavigationHeader';
+import Maincomponent from './Component/Maincomponent';
+import Myaccount from './Component/Myaccount/Myaccount';
+import Viewad from './Component/Viewad/Viewad';
+import Footer from './Component/Footer/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <React.Fragment>
+      <NavigationHeader />
+      <Router>
+      <Switch>
+        <Route exact path='/' component={Viewad} />
+        <Route  path='/Myaccount' component={Myaccount} />
+        <Route  component={Maincomponent} />
+      </Switch>
+      <Footer />
+      </Router>
+      </React.Fragment>
     </div>
   );
 }

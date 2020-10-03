@@ -1,0 +1,9 @@
+.serch-container {
+    background-color: #e1e6eb;
+    
+  }
+
+.serch-container > div{
+    text-align: center;
+    font-size: 15px; 
+}   
