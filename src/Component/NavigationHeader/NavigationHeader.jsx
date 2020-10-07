@@ -10,7 +10,6 @@ export default class NavigationHeader extends Component {
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
             </button>
-            
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
@@ -43,8 +42,8 @@ export default class NavigationHeader extends Component {
             </div>
             </nav>
             <div className='serch-container'>
-                    <div className="d-flex flex-row bd-highlight  mb-5">
-                    <select className="p-2 ml-5 my-2 my-lg-4 bd-highlight">
+                    <div className="d-flex flex-row bd-highlight">
+                    <select className="p-2 ml-5 my-2 my-lg-4 bd-highlight rounded">
                     <option>Select a Location</option>
                     <option>Colombo</option>
                     <option>Kandy</option>
@@ -74,7 +73,7 @@ export default class NavigationHeader extends Component {
                     <option>Vavuniya</option>
                     </select>
                     
-                    <select className="p-2 ml-5  my-2 my-lg-4 bd-highlight">
+                    <select className="p-2 ml-5  my-2 my-lg-4 bd-highlight rounded">
                     <option>Select a Category</option>
                     <option>Essentials</option>
                     <option>Electronics</option>

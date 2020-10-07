@@ -1,5 +1,12 @@
 .footer{
-    background-color: red;
-    height: 20vh;
-    margin-top:85vh;
+    background-color: #dddddd;
+    margin-top: -24px;
+}
+.content-center{
+    text-align: center;
+    margin-left: 20%;
+}
+.copyright
+{
+    margin-right: 20%;
 }
