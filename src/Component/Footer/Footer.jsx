@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import {ImFacebook2} from 'react-icons/im'
 import {FaTwitterSquare,FaInstagramSquare,FaYoutube} from 'react-icons/fa'
@@ -7,6 +7,8 @@ import './Footer.css'
 const Footer = () => {
   return (
 
+    
+        
     <div className='footer'>
       <div className='content-center'>
         <MDBFooter className="font-small pt-4 mt-4 ml-2">
@@ -93,7 +95,10 @@ const Footer = () => {
           </div>
         </MDBFooter>
       </div>
+     
     </div>
+       
+
   );
 }
 

@@ -1,10 +1,11 @@
 .serch-container {
     background-color:#dddd;
-    
+   width: fit-content;
   }
 
 .serch-container > div{
     text-align: center;
     font-size: 15px; 
-    margin-left:50%;
+  
+   
 }   
