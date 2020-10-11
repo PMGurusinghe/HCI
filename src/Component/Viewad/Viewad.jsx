@@ -28,7 +28,8 @@ export default class Viewad extends Component {
 
 
                     <div class="col-sm-4">
-                        <button type="button" className="btn btn-warning mb-2 ml-5">Promote This Ad</button>
+                        <button type="button" className="btn btn-warning mb-2 ml-5">Add to Favorite</button>
+                        <button type="button" className="btn btn-warning mb-2 ml-2">Promote This Ad</button>
                         <input type="checkbox" id="check" /> <label className="btn btn-outline-danger mb-2 ml-2" htmlFor="check">Report Ad</label>
                         <div className="wrapper">
                             <div className="header">
