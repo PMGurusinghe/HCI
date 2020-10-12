@@ -1,9 +1,14 @@
 .serch-container {
-    background-color: #e1e6eb;
-    
+    background-color:#dddd;
+ 
   }
 
 .serch-container > div{
     text-align: center;
     font-size: 15px; 
 }   
+
+select{
+    width: 20%;
+}
+
