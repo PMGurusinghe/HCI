@@ -7,6 +7,8 @@ import Myaccount from './Component/Myaccount/Myaccount';
 import Viewad from './Component/Viewad/Viewad';
 import Footer from './Component/Footer/Footer';
 import Maincomponent from './Component/Maincomponent';
+import FeedBack from './Component/feedback/FeedBack';
+import SignUp from './Component/signUp/SignUp';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Switch>
             <Route exact path='/' component={Viewad} />
             <Route exact path='/Myaccount' component={Myaccount} />
+            <Route exact path='/feedback' component={FeedBack} />
+            <Route exact path='/sign' component={SignUp} />
             <Route component={Maincomponent}></Route>
           </Switch>
           <Footer />

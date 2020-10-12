@@ -26,11 +26,11 @@ export default class NavigationHeader extends Component {
               </li>
 
               <li className="nav-item active">
-                <a className="nav-link" href="#">Contact Us <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="/feedback">Contact Us <span className="sr-only">(current)</span></a>
               </li>
 
               <li className="nav-item active ">
-                <a className="nav-link text-warning" href="#">Sign Up <span className="sr-only">(current)</span></a>
+                <a className="nav-link text-warning" href="/sign">Sign Up <span className="sr-only">(current)</span></a>
               </li>
 
               <li className="nav-item active">
