@@ -1,14 +1,14 @@
 import React from 'react'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import {ImFacebook2} from 'react-icons/im'
-import {FaTwitterSquare,FaInstagramSquare,FaYoutube} from 'react-icons/fa'
+import { ImFacebook2 } from 'react-icons/im'
+import { FaTwitterSquare, FaInstagramSquare, FaYoutube } from 'react-icons/fa'
 import './Footer.css'
 
 const Footer = () => {
   return (
 
-    
-        
+
+
     <div className='footer'>
       <div className='content-center'>
         <MDBFooter className="font-small pt-4 mt-4 ml-2">
@@ -83,21 +83,30 @@ const Footer = () => {
                 </ul>
               </MDBCol>
             </MDBRow>
-           
+
           </MDBContainer>
           <div className='copyright'>
             <div className="footer-copyright  py-4">
               <MDBContainer fluid>
-              <div className="social_media"> <a href="https://www.facebook.com/vikkalkk/"><ImFacebook2 size='1rem'/></a> <a href="https://twitter.com/vikkalk"><FaTwitterSquare size='1.1rem'/></a> <a href="https://www.instagram.com/explore/tags/vikka/?hl=en"><FaInstagramSquare size='1.1rem'/></a> <a href="https://www.youtube.com/"><FaYoutube size='1.51rem'/></a></div>
+                <div className="heading d-flex justify-content-center align-items-center">
+                  <ul className="social-icons">
+                    <li> <a href="https://www.facebook.com/vikkalkk/"><ImFacebook2 color='black' size='1rem' /></a></li>
+                    <li><a href="https://twitter.com/vikkalk"><FaTwitterSquare color='black' size='1.1rem' /></a> </li>
+                    <li><a href="https://www.instagram.com/explore/tags/vikka/?hl=en"><FaInstagramSquare color='black' size='1.1rem' /></a> </li>
+                    <li> <a href="https://www.youtube.com/"><FaYoutube color='black' size='1.51rem' /></a></li>
+                  </ul>
+                </div>
+
+                <div className="social_media"></div>
                 &copy; {new Date().getFullYear()} Vikka.lk by Fantastic_Five & Company. All Rights Reserved.
           </MDBContainer>
             </div>
           </div>
         </MDBFooter>
       </div>
-     
+
     </div>
-       
+
 
   );
 }

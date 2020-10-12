@@ -11,7 +11,8 @@ import carimgf4 from '../../images/15905631353.jpg'
 import imgfbike1 from '../../images/KTM.jpg'
 import imgfbike2 from '../../images/KTM250.jpg'
 import phoneimgf1 from '../../images/i11.jpg'
-
+/**Icons**/
+import {BsEye} from 'react-icons/bs'
 import { MdDelete } from "react-icons/md"
 class Favorits extends Component {
     render() {
@@ -30,7 +31,8 @@ class Favorits extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <button type="button" class="buttond btn btn-outline-warning"><MdDelete  size='1.5rem' /> Remove</button>
+                                <button type="button" class="buttond btn btn-outline-warning"><BsEye  size='1.5rem' /> View</button>
+                                <button type="button" class="buttond btn btn-outline-warning ml-3"><MdDelete  size='1.5rem' /> Remove</button>
                             </div>
                         </div>
                         <div className="card bg-light rounded">
@@ -38,7 +40,8 @@ class Favorits extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <button type="button" class="buttond btn btn-outline-warning"><MdDelete  size='1.5rem' /> Remove</button>
+                                <button type="button" class="buttond btn btn-outline-warning"><BsEye  size='1.5rem' /> View</button>
+                                <button type="button" class="buttond btn btn-outline-warning ml-3"><MdDelete  size='1.5rem' /> Remove</button>
                             </div>
                         </div>
                         <div className="card bg-light rounded">
@@ -47,7 +50,8 @@ class Favorits extends Component {
                                 <h5 className="card-title">Card title</h5>
                                 <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                <button type="button" class="buttond btn btn-outline-warning"><MdDelete  size='1.5rem' /> Remove</button>
+                                <button type="button" class="buttond btn btn-outline-warning"><BsEye  size='1.5rem' /> View</button>
+                                <button type="button" class="buttond btn btn-outline-warning ml-3"><MdDelete  size='1.5rem' /> Remove</button>
                             </div>
                         </div>
                         <div className="card bg-light rounded">
@@ -56,7 +60,8 @@ class Favorits extends Component {
                                 <h5 className="card-title">Card title</h5>
                                 <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                <button type="button" class="buttond btn btn-outline-warning"><MdDelete  size='1.5rem' /> Remove</button>
+                                <button type="button" class="buttond btn btn-outline-warning"><BsEye  size='1.5rem' /> View</button>
+                                <button type="button" class="buttond btn btn-outline-warning ml-3"><MdDelete  size='1.5rem' /> Remove</button>
                             </div>
                         </div>
                         <div className="card bg-light rounded">
@@ -64,7 +69,8 @@ class Favorits extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Card title that wraps to a new line</h5>
                                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <button type="button" class="buttond btn btn-outline-warning"><MdDelete  size='1.5rem' /> Remove</button>
+                                <button type="button" class="buttond btn btn-outline-warning"><BsEye  size='1.5rem' /> View</button>
+                                <button type="button" class="buttond btn btn-outline-warning ml-3"><MdDelete  size='1.5rem' /> Remove</button>
                             </div>
                         </div>
                         <div className="card bg-light rounded">
@@ -73,7 +79,8 @@ class Favorits extends Component {
                                 <h5 className="card-title">Card title</h5>
                                 <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                <button type="button" class="buttond btn btn-outline-warning"><MdDelete  size='1.5rem' /> Remove</button>
+                                <button type="button" class="buttond btn btn-outline-warning"><BsEye  size='1.5rem' /> View</button>
+                                <button type="button" class="buttond btn btn-outline-warning ml-3"><MdDelete  size='1.5rem' /> Remove</button>
                             </div>
                         </div>
                       

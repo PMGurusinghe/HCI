@@ -13,7 +13,9 @@ import carimg9 from '../images/15905631353.jpg'
 import { FaFileVideo } from "react-icons/fa"
 import { ImLocation } from "react-icons/im"
 import { CgMaximizeAlt } from "react-icons/cg"
-
+import {MdContactPhone} from 'react-icons/md'
+import {ImWhatsapp} from 'react-icons/im'
+import {HiOutlineMail} from 'react-icons/hi'
 export default class Viewad extends Component {
 
     render() {
@@ -98,6 +100,7 @@ export default class Viewad extends Component {
                                 </Carousel.Item>
                             </Carousel>
                         </div>
+                        <div class="btn-group">
                         <div className='btncenter mt-5'>
                             <div className="btn-toolbar mt-5 ml-5" role="toolbar" aria-label="Toolbar with button groups">
                                 <div className="btn-group mr-2" role="group" aria-label="First group">
@@ -108,10 +111,19 @@ export default class Viewad extends Component {
                                     <button type="button" className="btn btn-secondary"><ImLocation size='2rem' />Location</button>
 
                                 </div>
-                                <div className="btn-group" role="group" aria-label="Third group">
+                                <div className="btn-group mr-2" role="group" aria-label="Third group">
+                                    <button className="btn btn-secondary" data-toggle="collapse" data-target="#demo"><MdContactPhone size='2rem' />Contacts</button>
+
+                                    <div id="demo" class="panel-collapse collapse">
+                                       <h5><ImWhatsapp size='2rem' />070-3054972</h5>
+                                       <h5><HiOutlineMail size='2rem' />madhushangurusinghe@gmail.com</h5>
+                                    </div>
+                                </div>
+                                <div className="btn-group" role="group" aria-label="Fourth group">
                                     <button type="button" className="btn btn-secondary"><CgMaximizeAlt size='2rem' />Max</button>
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </div>
 
@@ -213,8 +225,8 @@ export default class Viewad extends Component {
                         Side door tread plates - metal<br />
                         Single front glove box<br />
                         Two-zone Climate Control<br />
-                                        <br />
-                                        <h2 className="title">Exterior Features</h2>
+                            <br />
+                            <h2 className="title">Exterior Features</h2>
                         Auto-dimming, power-fold, heated door mirrors with approach lights<br />
                         Black roof rails<br />
                         Body-coloured roof<br />
@@ -258,12 +270,12 @@ export default class Viewad extends Component {
                         Packs<br />
                         Exterior Pack<br />
                         Power Socket Pack 1<br />
-                                        <br />
-                                        <h2 className="title">Call Us For Further Details</h2>
+                            <br />
+                            <h2 className="title">Call Us For Further Details</h2>
                         0773 503 203 / 076 111 5557<br />
                         Leasing Facilities can be arranged</p>
-                                    <br />
-                                </div>
+                        <br />
+                    </div>
 
                 </div>
             </div>
