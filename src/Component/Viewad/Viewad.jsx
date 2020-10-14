@@ -1,69 +1,51 @@
 import React, { Component } from 'react'
-import Carousel from 'react-bootstrap/Carousel' 
+import Carousel from 'react-bootstrap/Carousel'
 import '../Viewad/Viewad.css'
-import carimg1 from '../images/fitted.jpg'
-import carimg2 from '../images/fitted (1).jpg'
-import carimg3 from '../images/fitted (2).jpg'
+import carimg1 from '../images/15759810002.jpg'
+import carimg2 from '../images/15759810005.jpg'
+import carimg3 from '../images/15759810006.jpg'
+import carimg4 from '../images/15759810007.jpg'
+import carimg5 from '../images/15759810009.jpg'
+import carimg6 from '../images/15905631350.jpg'
+import carimg7 from '../images/15905631351.jpg'
+import carimg8 from '../images/15905631352.jpg'
+import carimg9 from '../images/15905631353.jpg'
+/**images**/
+import simi1 from '../images/similerads/simi1.jpg'
+import simi2 from '../images/similerads/simi2.jpg'
+import simi3 from '../images/similerads/simi3.jpg'
+import simi4 from '../images/similerads/simi4.jpg'
+import simi5 from '../images/similerads/simi5.jpg'
+import simi6 from '../images/similerads/simi6.jpg'
+
+
+/**ICONS**/
+import { FaFileVideo } from "react-icons/fa"
+import { ImLocation } from "react-icons/im"
+import { CgMaximizeAlt } from "react-icons/cg"
+import { MdContactPhone } from 'react-icons/md'
+import { ImWhatsapp } from 'react-icons/im'
+import { HiOutlineMail } from 'react-icons/hi'
+
+import { FaTasks, FaRegTrashAlt } from 'react-icons/fa'
+import { FcCheckmark } from 'react-icons/fc'
+
 export default class Viewad extends Component {
+
     render() {
         return (
-        <div>   
-            <div class='container-fluid' >  
-        
-                <div className="row title" style={{ marginBottom: "20px" }} >  
-                    
-                     <div class="col-sm-12 btn btn-light btn-outline-dark"> <h2>Audi A6 High Spec Version 2013</h2></div>  
-                    
-                        </div>  
-                        <button type="button" className="btn btn-warning mb-2 ml-2">Promote This Ad</button>
-<<<<<<< master
-                        <button  type="button" className="btn btn-outline-danger mb-2 ml-2">Report Ad</button>
-                                 </div>  
- <div className='imgcenter'>        
-    <div className='container-fluid ' >  
-                        
-    <Carousel>  
-    <Carousel.Item style={{'height':"600px"}} >  
-    <img style={{'height':"600px"}} className="d-block w-75" src={carimg1} />  
-                        
-        <Carousel.Caption>   
-        </Carousel.Caption>  
-        </Carousel.Item  >  
-        <Carousel.Item style={{'height':"600px"}}>  
-        <img style={{'height':"600px"}} className="d-block w-75" src={carimg2}    />  
-                        
-        <Carousel.Caption>   
-        </Carousel.Caption>  
-        </Carousel.Item>  
-        <Carousel.Item style={{'height':"600px"}}>  
-        <img style={{'height':"600px"}} className="d-block w-75" src={carimg3}   />  
-                        
-        <Carousel.Caption>    
-        </Carousel.Caption>  
-        </Carousel.Item>  
-        </Carousel>  
-    </div> 
-    </div> 
-    <div className='btncenter'>
-        <div className="btn-toolbar mt-5 ml-5" role="toolbar" aria-label="Toolbar with button groups">
-        <div className="btn-group mr-2" role="group" aria-label="First group">
-        <button type="button" className="btn btn-secondary">Video</button>
-        </div>
-        <div className="btn-group mr-2" role="group" aria-label="Second group">
-        <button type="button" className="btn btn-secondary">Location</button>
-        </div>
-        <div className="btn-group" role="group" aria-label="Third group">
-        <button type="button" className="btn btn-secondary">Max</button>
-        </div>
-        </div>  
-        </div>    
-</div>
 
-    )  
-  }  
-}  
-            
-=======
+            <div>
+                <div class="row mt-3 ml-5">
+                    <div class="col-sm-8">
+                        <h3>Velar R Dynamic HSE 240</h3>
+                        <p><i className="fa fa-map-marker" /> Kohuwala Showroom - VID220</p>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <button type="button" className="btn btn-warning mb-2 ml-5">Add to Favorite</button>
+                        <button type="button" className="btn btn-warning mb-2 ml-2">Promote This Ad</button>
                         <input type="checkbox" id="check" /> <label className="btn btn-outline-danger mb-2 ml-2" htmlFor="check">Report Ad</label>
                         <div className="wrapper">
                             <div className="header">
@@ -322,7 +304,7 @@ export default class Viewad extends Component {
                         {/* Similer Ads */}
                         <div class="col-sm-3 mt-5 ml-5">
                             <h3>Similer Ads</h3>
-                            <div className="mngads scroll-area-sm " style={{ 'height': '165vh' }}>
+                            <div className="mngads scroll-area-sm " style={{ 'height': '170vh' }}>
                                 <perfect-scrollbar className="ps-show-limits">
                                     <div style={{ position: 'static' }} className="ps ps--active-y">
                                         <div className="ps-content">
@@ -462,4 +444,3 @@ export default class Viewad extends Component {
     }
 
 }
->>>>>>> local
