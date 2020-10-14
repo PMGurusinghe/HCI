@@ -445,8 +445,4 @@ export default class Viewad extends Component {
         )
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> master
