@@ -5,7 +5,7 @@ import './HowToSellFast.css'
 class HowToSellFast extends Component{
   render() {
       return(
-          <div className="sellfast-parent">
+          <div className="sellfast-parent mb-5 mt-5">
               <div className="sellfast-name">
                   <h2>Welcome to vikka.lk's Help & Support page</h2>
                   <h3>How to sell fast?</h3>
