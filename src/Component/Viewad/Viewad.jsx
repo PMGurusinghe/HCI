@@ -304,7 +304,9 @@ export default class Viewad extends Component {
                         {/* Similer Ads */}
                         <div class="col-sm-3 mt-5 ml-5">
                             <h3>Similer Ads</h3>
-                            <div className="mngads scroll-area-sm " style={{ 'height': '170vh' }}>
+
+                            <div className="mngads scroll-area-sm " style={{ 'height': '165vh' }}>
+
                                 <perfect-scrollbar className="ps-show-limits">
                                     <div style={{ position: 'static' }} className="ps ps--active-y">
                                         <div className="ps-content">
