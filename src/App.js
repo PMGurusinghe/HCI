@@ -8,12 +8,14 @@ import Maincomponent from './Component/Maincomponent';
 import Myaccount from './Component/Myaccount/Myaccount';
 import Viewad from './Component/Viewad/Viewad';
 import Footer from './Component/Footer/Footer';
-
+import Forgot from './Component/forgot/ForgetBody';
+import Home from './Component/home/body/Body';
+import Search from './Component/search/Search';
 
 function App() {
   return (
     <div className="App">
-      <React.Fragment>
+      {/* <React.Fragment>
       <NavigationHeader />
       <Router>
       <Switch>
@@ -23,7 +25,9 @@ function App() {
       </Switch>
       <Footer />
       </Router>
-      </React.Fragment>
+      </React.Fragment> */}
+
+      <Search/>
     </div>
   );
 }
