@@ -111,14 +111,14 @@
     height: 20vh;
     width: 25%;
 }
-h1{
+.tt1{
     font-size: 25px;
 }
-h2{
+.tt2{
     font-size: 40px;
     text-align: center;
 }
-h3{
+.tt3{
     text-align: center;
     margin-top: 15%;
 }
