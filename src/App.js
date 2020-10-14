@@ -11,6 +11,10 @@ import Editprofile from './Component/Myaccount/Editprofile/Editprofile';
 import Favorits from './Component/Myaccount/Favorits/Favorits';
 import Manageads from './Component/Myaccount/Manage my ads/Manageads';
 import Mystatistics from './Component/Myaccount/Mystatistics/Mystatistics';
+
+/** Avinash**/
+import Search from './Component/search/Search';
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +28,9 @@ function App() {
             <Route exact path='/Favorits' component={Favorits} />
             <Route exact path='/Manageads' component={Manageads} />
             <Route exact path='/Mystatistics' component={Mystatistics} />
+
+            <Route exact path='/Search' component={Search} />
+
             <Route component={Maincomponent}></Route>
           </Switch>
           <Footer />
