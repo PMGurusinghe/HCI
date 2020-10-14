@@ -1,0 +1,31 @@
+
+  .background{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .buttond:hover {
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    
+}
+.widget-user .widget-user-header {
+  padding: 20px;
+  height: 100px;
+}
+.widget-user .widget-user-desc {
+  margin-top: 0;
+  font-size: 20px;
+}

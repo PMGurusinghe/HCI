@@ -1,5 +1,4 @@
 import React, {useState}from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import { Slider,Select, MenuItem } from "@material-ui/core";
 
 

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Search.css";
 import { Slider } from "@material-ui/core";
 import Select1 from "./select";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Card, CardDeck } from "react-bootstrap";
 

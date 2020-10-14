@@ -1,33 +1,51 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Component/Fontawesome';
 import NavigationHeader from './Component/NavigationHeader/NavigationHeader';
-import Maincomponent from './Component/Maincomponent';
 import Myaccount from './Component/Myaccount/Myaccount';
 import Viewad from './Component/Viewad/Viewad';
 import Footer from './Component/Footer/Footer';
+import Maincomponent from './Component/Maincomponent';
+import Editprofile from './Component/Myaccount/Editprofile/Editprofile';
+import Favorits from './Component/Myaccount/Favorits/Favorits';
+import Manageads from './Component/Myaccount/Manage my ads/Manageads';
+import Mystatistics from './Component/Myaccount/Mystatistics/Mystatistics';
+
+/** Avinash**/
 import Forgot from './Component/forgot/ForgetBody';
 import Home from './Component/home/body/Body';
 import Search from './Component/search/Search';
 
+/** Dilanka**/
+import FeedBack from './Component/feedback/FeedBack';
+import SignUp from './Component/signUp/SignUp';
+import HowToSellFast from './Component/HowToSellFast/HowToSellFast';
+
 function App() {
   return (
     <div className="App">
-      {/* <React.Fragment>
-      <NavigationHeader />
-      <Router>
-      <Switch>
-        <Route exact path='/' component={Viewad} />
-        <Route  path='/Myaccount' component={Myaccount} />
-        <Route  component={Maincomponent} />
-      </Switch>
-      <Footer />
-      </Router>
-      </React.Fragment> */}
+      <React.Fragment>
+        <NavigationHeader />
+        <Router>
+          <Switch>
+            <Route exact path='/' component={Viewad} />
+            <Route exact path='/Myaccount' component={Myaccount} />
+            <Route exact path='/Editprofile' component={Editprofile} />
+            <Route exact path='/Favorits' component={Favorits} />
+            <Route exact path='/Manageads' component={Manageads} />
+            <Route exact path='/Mystatistics' component={Mystatistics} />
 
-      <Search/>
+            <Route exact path='/Search' component={Search} />
+
+            <Route exact path='/feedback' component={FeedBack} />
+            <Route exact path='/sign' component={SignUp} />
+            <Route exact path='/sellfast' component={HowToSellFast}/>
+            <Route component={Maincomponent}></Route>
+          </Switch>
+          <Footer />
+        </Router>
+      </React.Fragment>
     </div>
   );
 }
