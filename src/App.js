@@ -14,7 +14,6 @@ import Mystatistics from './Component/Myaccount/Mystatistics/Mystatistics';
 /**Avinash**/
 import Forgot from './Component/forgot/ForgetBody';
 import Home from './Component/home/body/Body';
-import Search from './Component/search/Search';
 
 function App() {
   return (
