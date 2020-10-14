@@ -41,7 +41,7 @@ const Footer = () => {
                     <a href="#!">About Us</a>
                   </li>
                   <li className="list-unstyled">
-                    <a href="#!">Contact Us</a>
+                    <a href="/feedback">Contact Us</a>
                   </li>
                   <li className="list-unstyled">
                     <a href="#!">Blog</a>
@@ -75,10 +75,10 @@ const Footer = () => {
                     <a href="#!">My Profile</a>
                   </li>
                   <li className="list-unstyled">
-                    <a href="#!">Contact Us</a>
+                    <a href="/feedback">Contact Us</a>
                   </li>
                   <li className="list-unstyled">
-                    <a href="#!">Post Your Ad</a>
+                    <a href="/sellfast">Post Your Ad</a>
                   </li>
                 </ul>
               </MDBCol>
