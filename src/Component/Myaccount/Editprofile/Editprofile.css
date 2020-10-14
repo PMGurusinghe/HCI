@@ -1,4 +1,8 @@
-
+.background{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bodersh{
   border: 1px solid;
   padding: 10px;

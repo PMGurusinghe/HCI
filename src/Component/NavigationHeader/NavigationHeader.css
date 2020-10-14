@@ -1,6 +1,7 @@
 .serch-container {
-    background-color:#dddd;
- 
+    background-image: url(../images/search2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
 .serch-container > div{

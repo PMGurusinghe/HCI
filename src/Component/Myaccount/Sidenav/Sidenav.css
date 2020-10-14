@@ -145,3 +145,22 @@ a.download:hover {
         display: none
     }
 }
+
+
+/**User Image**/
+
+.widget-user .widget-user-image {
+    position: absolute;
+    top: 5px;
+    right: 5%;
+}
+
+.widget-user .widget-user-image>img {
+    width: 20px;
+    height:10px;
+    border: 2px solid #fff
+}
+
+.img-circle {
+    border-radius: 60%
+}

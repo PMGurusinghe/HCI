@@ -1,5 +1,9 @@
 
-
+.background{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .card {
     box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
     border-width: 0;
@@ -135,18 +139,6 @@
     color: #fff;
     background-color: #3ac47d;
     border-color: #3ac47d
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #3f6ad8;
-    border-color: #3f6ad8
-}
-
-.btn {
-    position: relative;
-    transition: color 0.15s, background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
-    outline: none !important
 }
 
 .card-footer {

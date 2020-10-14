@@ -4,7 +4,7 @@ import Sidenav from './Sidenav/Sidenav'
 import { Switch } from 'react-router-dom';
 import './Myaccount.css'
 /**Images**/
-import imagepropic from '../images/images.png'
+
 import Rhome from '../images/Rhome.jpg'
 import dogs from '../images/dogs.jpg'
 import lap from '../images/lap.jpg'
@@ -14,7 +14,7 @@ import {BsEye} from 'react-icons/bs'
 class Myaccount extends Component {
     render() {
         return (
-            <div className='d-flex'>
+            <div className='background d-flex'>
 
                 <Route>
                     <Switch>
@@ -26,12 +26,14 @@ class Myaccount extends Component {
 
                 <ul className="container-fluid navbar-nav">
 
-                    <li className="nav-item"> <div className="box box-widget widget-user">
-                        <div className="widget-user-header bg-aqua-active">
+                    <li className="nav-item">
+                        <div className="box box-widget widget-user">
+                        <div className="widget-user-header ">
                             <div className='d-flex'><h3 className="widget-user-username">Pamod Gurusinghe</h3>
-                                <h3 className="widget-user-username">Pamod Gurusinghe</h3></div>
+                                <h3 className="widget-user-username">Pamod Gurusinghe</h3>
+                            </div>
                             <h5 className="widget-user-desc">Seller</h5>
-                            <div className="widget-user-image"> <img className="img-circle" src={imagepropic} alt="User Avatar" /> </div>
+                            
                         </div>
 
 
@@ -106,7 +108,7 @@ class Myaccount extends Component {
                                         <h4 className='mt-3 ml-3 mb-3 '>Recently Viewed Ads</h4>
                                             <div className="div1 d-flex p-2 p-md-5 ">
                                                 
-                                                <div className="card" style={{ width: '18rem' }}>
+                                                <div className="card ml-4 mr-5" style={{ width: '18rem' }}>
                                                     <img className="card-img-top" src={Rhome} alt="Card image cap" />
                                                     <div className="card-body">
                                                         <h5 className="card-title">A Architect Designed Two Story Luxury House in Nearby Kottawa</h5>
@@ -118,7 +120,7 @@ class Myaccount extends Component {
                                                     </div>
                                                 </div>
                                                
-                                                <div className="card ml-3" style={{ width: '18rem' }}>
+                                                <div className="card mr-5 ml-1" style={{ width: '18rem' }}>
                                                     <img className="card-img-top" src={dogs} alt="Card image cap" />
                                                     <div className="card-body">
                                                         <h5 className="card-title">Golden Retriever</h5>
@@ -127,7 +129,7 @@ class Myaccount extends Component {
                                                     </div>
                                                 </div>
                                                
-                                                <div className="card ml-3" style={{ width: '18rem' }}>
+                                                <div className="card ml-1" style={{ width: '18rem' }}>
                                                     <img className="card-img-top" src={lap}alt="Card image cap" />
                                                     <div className="card-body">
                                                         <h5 className="card-title">ASUS Laptop ZenBook UX434FLC-XH77 Intel Core i7 10th</h5>

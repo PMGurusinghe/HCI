@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
+.background{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 a,
 a:hover,
 a:focus {
@@ -233,22 +237,6 @@ a.download:hover {
     margin-bottom: 20px;
     width: 550%;
 
-}
-
-.widget-user .widget-user-image {
-    position: absolute;
-    top: 45px;
-    right: 10%;
-}
-
-.widget-user .widget-user-image>img {
-    width: 150px;
-    height: auto;
-    border: 3px solid #fff
-}
-
-.img-circle {
-    border-radius: 50%
 }
 
 .widget-user .box-footer {

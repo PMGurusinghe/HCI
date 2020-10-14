@@ -1,7 +1,9 @@
 import React from 'react'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { ImFacebook2 } from 'react-icons/im'
-import { FaTwitterSquare, FaInstagramSquare, FaYoutube } from 'react-icons/fa'
+import { FaTwitterSquare, FaInstagramSquare, FaYoutube ,FaGooglePlay } from 'react-icons/fa'
+import { ImAppleinc } from 'react-icons/im'
+
 import './Footer.css'
 
 const Footer = () => {
@@ -19,25 +21,21 @@ const Footer = () => {
                 <div className="padding">
                   <div className="row container d-flex ">
                     <div className="template-demo mt-2">
-                      <button className="btn btn-outline-dark btn-icon-text"> <i className="fa fa-apple btn-icon-prepend mdi-36px" /> <span className="d-inline-block text-left"> <small className="font-weight-light d-block">Available on the</small> App Store </span> </button>
-                      <button className="btn btn-outline-dark btn-icon-text ml-2"> <i className="fa fa-android btn-icon-prepend mdi-36px" /> <span className="d-inline-block text-left"> <small className="font-weight-light d-block">Get it on the</small> Google Play </span> </button> </div>
+                      <button className="btn btn-outline-light btn-icon-text"> <ImAppleinc className='mb-2 mr-1' size='2rem' /> <span className="d-inline-block text-left"> <small className="font-weight-light d-block">Available on the</small> App Store </span> </button>
+                      <button className="btn btn-outline-light btn-icon-text ml-2"> <FaGooglePlay className='mb-2 mr-1' size='2rem' /> <span className="d-inline-block text-left"> <small className="font-weight-light d-block">Get it on the</small> Google Play </span> </button> </div>
                   </div>
                 </div>
 
                 <br>
                 </br>
-                <h5 className="title">Connect with us</h5>
-                <div className="padding">
-                  <div className="row container d-flex ">
-                    <div className="template-demo mt-2">
-                      <button className="btn btn-primary btn-icon-text ml-2"> <i className="fa fa-android btn-icon-prepend mdi-36px" /> <span className="d-inline-block text-left"> Like Us on Facebook</span> </button> </div>
-                  </div>
-                </div>
               </MDBCol>
               <MDBCol md="2">
                 <h5 className="title ml-2">Tips & Help</h5>
                 <ul className="col-auto justify-content-center" >
-                  <li className="list-unstyled mt-3">
+                <li className="list-unstyled mt-3">
+                    <a href="#!">How to Sell Fast</a>
+                  </li>
+                  <li className="list-unstyled ">
                     <a href="#!">About Us</a>
                   </li>
                   <li className="list-unstyled">
@@ -90,10 +88,10 @@ const Footer = () => {
               <MDBContainer fluid>
                 <div className="heading d-flex justify-content-center align-items-center">
                   <ul className="social-icons">
-                    <li> <a href="https://www.facebook.com/vikkalkk/"><ImFacebook2 color='black' size='1rem' /></a></li>
-                    <li><a href="https://twitter.com/vikkalk"><FaTwitterSquare color='black' size='1.1rem' /></a> </li>
-                    <li><a href="https://www.instagram.com/explore/tags/vikka/?hl=en"><FaInstagramSquare color='black' size='1.1rem' /></a> </li>
-                    <li> <a href="https://www.youtube.com/"><FaYoutube color='black' size='1.51rem' /></a></li>
+                    <li> <a href="https://www.facebook.com/vikkalkk/"><ImFacebook2 color='white' size='1rem' /></a></li>
+                    <li><a href="https://twitter.com/vikkalk"><FaTwitterSquare color='white' size='1.1rem' /></a> </li>
+                    <li><a href="https://www.instagram.com/explore/tags/vikka/?hl=en"><FaInstagramSquare color='white' size='1.1rem' /></a> </li>
+                    <li> <a href="https://www.youtube.com/"><FaYoutube color='white' size='1.51rem' /></a></li>
                   </ul>
                 </div>
 

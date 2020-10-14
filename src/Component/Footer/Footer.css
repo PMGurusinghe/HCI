@@ -1,9 +1,10 @@
 .footer{
-    background-color: #05FFA1;
+    background-color: #343A40;
     margin-top: -24px;
 }
 .content-center{
     text-align: center;
+    color: azure;
     margin-left: 20%;
 }
 .copyright
@@ -30,7 +31,7 @@
     color: #fff;
     font-size: 25px;
     cursor: pointer;
-    color: yellow;
+    color: rgb(255, 255, 0);
     margin-right: 16px;
     position: relative;
     text-align: center;

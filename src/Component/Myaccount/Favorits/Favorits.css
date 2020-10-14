@@ -1,4 +1,9 @@
 
+  .background{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   .buttond:hover {
     color: red;
     cursor: pointer;
@@ -15,4 +20,12 @@
     line-height: 1.5;
     border-radius: .25rem;
     
+}
+.widget-user .widget-user-header {
+  padding: 20px;
+  height: 100px;
+}
+.widget-user .widget-user-desc {
+  margin-top: 0;
+  font-size: 20px;
 }

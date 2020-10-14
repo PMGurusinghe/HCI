@@ -17,14 +17,25 @@ import { MdDelete } from "react-icons/md"
 class Favorits extends Component {
     render() {
         return (
-            <div className='d-flex'>
+            
+            <div className="d-flex flex-column">
                 <Route>
                     <Switch>
                         <Route component={Sidenav}></Route>
                     </Switch>
+                    <li className="nav">
+                        <div className="box box-widget widget-user">
+                        <div className="widget-user-header ">
+                            <div className='d-flex'><h3 className="widget-user-username">Pamod Gurusinghe</h3>
+                                <h3 className="widget-user-username">Pamod Gurusinghe</h3>
+                            </div>
+                            <h5 className="widget-user-desc">Seller</h5>
+                            
+                        </div>
 
 
-
+                    </div></li>
+                   
                     <div className="card-columns">
                         <div className="card bg-light rounded">
                             <img className="card-img-top" src={carimgf1} alt="Card image cap" />
