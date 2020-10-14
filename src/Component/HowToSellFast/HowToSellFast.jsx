@@ -5,15 +5,15 @@ import './HowToSellFast.css'
 class HowToSellFast extends Component{
   render() {
       return(
-          <div className="sellfast-parent">
+          <div className="sellfast-parent mb-5 mt-5">
               <div className="sellfast-name">
-                  <h2>Welcome to vikka.lk's Help & Support page</h2>
-                  <h3>How to sell fast?</h3>
+                  <h2 className="tt2">Welcome to vikka.lk's Help & Support page</h2>
+                  <h3 className="tt3">How to sell fast?</h3>
               </div>
               <div className="sellfast-name-1">
                     <div className="sellfast-all-1">
                         <div className="sellfast-img-1"></div>
-                        <div className="sellfast-title-1"><h1>Pick the right price - everything sells if the price is right.</h1></div>
+                        <div className="sellfast-title-1"><h1 className="tt1">Pick the right price - everything sells if the price is right.</h1></div>
                     </div>
                     <div className="sellfast-dis-1"><p>&#x25CF; Browse similar ads and pick a competitive price.</p>
             <p>&#x25CF; Think about how much buyers are willing to pay. The lower the price, the higher the demand.</p></div>

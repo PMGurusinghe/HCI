@@ -38,7 +38,7 @@ class SignUp extends Component{
                      if( nam==''){
                            err = <strong>Name Required!</strong>;
                        }else{
-                           err = <strong>Your name must be a character</strong>;
+                           err = <strong style={{'color':'red'}}>Your name must be a character</strong>;
                        }
                       }else{this.setState({name: val})}
                        this.setState({nameErr: err});
@@ -47,7 +47,7 @@ class SignUp extends Component{
                         if( nam==''){
                            err2 = <strong>Name Required!</strong>;
                          }else{
-                           err2 = <strong>Email is not valid</strong>;
+                           err2 = <strong style={{'color':'red'}}>Email is not valid</strong>;
                          }
                        }else{this.setState({email: val})}
                        this.setState({emailErr: err2});

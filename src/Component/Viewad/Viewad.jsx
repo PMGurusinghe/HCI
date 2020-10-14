@@ -10,9 +10,25 @@ import carimg6 from '../images/15905631350.jpg'
 import carimg7 from '../images/15905631351.jpg'
 import carimg8 from '../images/15905631352.jpg'
 import carimg9 from '../images/15905631353.jpg'
+/**images**/
+import simi1 from '../images/similerads/simi1.jpg'
+import simi2 from '../images/similerads/simi2.jpg'
+import simi3 from '../images/similerads/simi3.jpg'
+import simi4 from '../images/similerads/simi4.jpg'
+import simi5 from '../images/similerads/simi5.jpg'
+import simi6 from '../images/similerads/simi6.jpg'
+
+
+/**ICONS**/
 import { FaFileVideo } from "react-icons/fa"
 import { ImLocation } from "react-icons/im"
 import { CgMaximizeAlt } from "react-icons/cg"
+import { MdContactPhone } from 'react-icons/md'
+import { ImWhatsapp } from 'react-icons/im'
+import { HiOutlineMail } from 'react-icons/hi'
+
+import { FaTasks, FaRegTrashAlt } from 'react-icons/fa'
+import { FcCheckmark } from 'react-icons/fc'
 
 export default class Viewad extends Component {
 
@@ -28,7 +44,8 @@ export default class Viewad extends Component {
 
 
                     <div class="col-sm-4">
-                        <button type="button" className="btn btn-warning mb-2 ml-5">Promote This Ad</button>
+                        <button type="button" className="btn btn-warning mb-2 ml-5">Add to Favorite</button>
+                        <button type="button" className="btn btn-warning mb-2 ml-2">Promote This Ad</button>
                         <input type="checkbox" id="check" /> <label className="btn btn-outline-danger mb-2 ml-2" htmlFor="check">Report Ad</label>
                         <div className="wrapper">
                             <div className="header">
@@ -97,22 +114,33 @@ export default class Viewad extends Component {
                                 </Carousel.Item>
                             </Carousel>
                         </div>
-                        <div className='btncenter mt-5'>
-                            <div className="btn-toolbar mt-5 ml-5" role="toolbar" aria-label="Toolbar with button groups">
-                                <div className="btn-group mr-2" role="group" aria-label="First group">
-                                    <button type="button" className="btn btn-secondary"><FaFileVideo size='2rem' />Video</button>
-                                </div>
-                                <div className="btn-group mr-2" role="group" aria-label="Second group">
+                        <div class="btn-group">
+                            <div className='btncenter mt-3'>
+                                <div className="btn-toolbar mt-5 ml-5" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div className="btn-group mr-2" role="group" aria-label="First group">
+                                        <button type="button" className="btn btn-secondary"><FaFileVideo size='2rem' />Video</button>
+                                    </div>
+                                    <div className="btn-group mr-2" role="group" aria-label="Second group">
 
-                                    <button type="button" className="btn btn-secondary"><ImLocation size='2rem' />Location</button>
+                                        <button type="button" className="btn btn-secondary"><ImLocation size='2rem' />Location</button>
 
-                                </div>
-                                <div className="btn-group" role="group" aria-label="Third group">
-                                    <button type="button" className="btn btn-secondary"><CgMaximizeAlt size='2rem' />Max</button>
+                                    </div>
+                                    <div className="btn-group mr-2" role="group" aria-label="Third group">
+                                        <button className="btn btn-secondary" data-toggle="collapse" data-target="#demo"><MdContactPhone size='2rem' />Contacts</button>
+
+                                        <div id="demo" class="panel-collapse collapse">
+                                            <h5><ImWhatsapp size='2rem' />070-3054972</h5>
+                                            <h5><HiOutlineMail size='2rem' />madhushangurusinghe@gmail.com</h5>
+                                        </div>
+                                    </div>
+                                    <div className="btn-group" role="group" aria-label="Fourth group">
+                                        <button type="button" className="btn btn-secondary"><CgMaximizeAlt size='2rem' />Max</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="col-lg-4 ml-5 mt-3">
                         {/* Car details sidebar start */}
@@ -157,14 +185,14 @@ export default class Viewad extends Component {
 
 
                 </div>
-
-                <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12  ml-5'>
-                    <br />
-
-                    {/* About car start*/}
-                    <div className="car-details-body about-car single-block">
-                        <h2 className="title">General Information About Vehicle </h2>
-                        <p>2018 Range Rover Velar R Dynamic HSE 240 D<br />
+                <div className='card p-1 ml-5 mr-5 mt-5'>
+                    <div className='col-lg-12 col-md-8 col-sm-12 col-xs-12 d-flex ml-5'>
+                        <br />
+                        <div class="col-lg-4">
+                            {/* About car start*/}
+                            <div className="car-details-body about-car single-block">
+                                <h2 className="title">General Information About Vehicle </h2>
+                                <p>2018 Range Rover Velar R Dynamic HSE 240 D<br />
                         10 inch Touch Pro<br />
                         Adaptive Cruise Control with Queue Assist<br />
                         Auto High Beam Assist (AHBA)<br />
@@ -212,8 +240,18 @@ export default class Viewad extends Component {
                         Side door tread plates - metal<br />
                         Single front glove box<br />
                         Two-zone Climate Control<br />
-                                        <br />
-                                        <h2 className="title">Exterior Features</h2>
+                                    <br />
+
+                                    <h2 className="title">Call Us For Further Details</h2>
+                        0773 503 203 / 076 111 5557<br />
+                        Leasing Facilities can be arranged</p>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ml-3">
+                            {/* Car details */}
+                            <div className="car-details-sidebar ">
+                                <h2 className="title">Exterior Features</h2>
                         Auto-dimming, power-fold, heated door mirrors with approach lights<br />
                         Black roof rails<br />
                         Body-coloured roof<br />
@@ -257,12 +295,148 @@ export default class Viewad extends Component {
                         Packs<br />
                         Exterior Pack<br />
                         Power Socket Pack 1<br />
-                                        <br />
-                                        <h2 className="title">Call Us For Further Details</h2>
-                        0773 503 203 / 076 111 5557<br />
-                        Leasing Facilities can be arranged</p>
-                                    <br />
-                                </div>
+                                <br />
+
+                            </div>
+                            {/* Car details sidebar end */}
+                        </div>
+
+                        {/* Similer Ads */}
+                        <div class="col-sm-3 mt-5 ml-5">
+                            <h3>Similer Ads</h3>
+
+                            <div className="mngads scroll-area-sm " style={{ 'height': '165vh' }}>
+
+                                <perfect-scrollbar className="ps-show-limits">
+                                    <div style={{ position: 'static' }} className="ps ps--active-y">
+                                        <div className="ps-content">
+
+                                            <ul className=" list-group list-group-flush">
+
+                                                <li className="list-group-item">
+                                                    <div className="widget-content p-0">
+                                                        <div className="widget-content-wrapper">
+                                                            <div className="widget-content-left mr-2">
+
+                                                            </div>
+                                                            <div className="row">
+                                                                <div className="col-sm-7"> <img className="card-img-top" style={{ 'width': '220px' }} src={simi1} alt="Card image cap" /></div>
+                                                                <div className="card-header">Header</div>
+                                                                <div className="card-body text-primary">
+                                                                    <h5 className="card-title">Primary card title</h5>
+                                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li className="list-group-item">
+                                                    <div className="widget-content p-0">
+                                                        <div className="widget-content-wrapper">
+                                                            <div className="widget-content-left mr-2">
+
+                                                            </div>
+                                                            <div className="row">
+                                                                <div className="col-sm-7"> <img className="card-img-top" style={{ 'width': '220px' }} src={simi2} alt="Card image cap" /></div>
+                                                                <div className="card-header">Header</div>
+                                                                <div className="card-body text-primary">
+                                                                    <h5 className="card-title">Primary card title</h5>
+                                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+
+                                                <li className="list-group-item">
+                                                    <div className="widget-content p-0">
+                                                        <div className="widget-content-wrapper">
+                                                            <div className="widget-content-left mr-2">
+
+                                                            </div>
+                                                            <div className="row">
+                                                                <div className="col-sm-7"> <img className="card-img-top" style={{ 'width': '220px' }} src={simi3} alt="Card image cap" /></div>
+                                                                <div className="card-header">Header</div>
+                                                                <div className="card-body text-primary">
+                                                                    <h5 className="card-title">Primary card title</h5>
+                                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+
+                                                <li className="list-group-item">
+                                                    <div className="widget-content p-0">
+                                                        <div className="widget-content-wrapper">
+                                                            <div className="widget-content-left mr-2">
+
+                                                            </div>
+                                                            <div className="row">
+                                                                <div className="col-sm-7"> <img className="card-img-top" style={{ 'width': '220px' }} src={simi4} alt="Card image cap" /></div>
+                                                                <div className="card-header">Header</div>
+                                                                <div className="card-body text-primary">
+                                                                    <h5 className="card-title">Primary card title</h5>
+                                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li className="list-group-item">
+                                                    <div className="widget-content p-0">
+                                                        <div className="widget-content-wrapper">
+                                                            <div className="widget-content-left mr-2">
+
+                                                            </div>
+                                                            <div className="row">
+                                                                <div className="col-sm-7"> <img className="card-img-top" style={{ 'width': '220px' }} src={simi5} alt="Card image cap" /></div>
+                                                                <div className="card-header">Header</div>
+                                                                <div className="card-body text-primary">
+                                                                    <h5 className="card-title">Primary card title</h5>
+                                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+
+                                                <li className="list-group-item">
+                                                    <div className="widget-content p-0">
+                                                        <div className="widget-content-wrapper">
+                                                            <div className="widget-content-left mr-2">
+
+                                                            </div>
+                                                            <div className="row">
+                                                                <div className="col-sm-7"> <img className="card-img-top" style={{ 'width': '220px' }} src={simi6} alt="Card image cap" /></div>
+                                                                <div className="card-header">Header</div>
+                                                                <div className="card-body text-primary">
+                                                                    <h5 className="card-title">Primary card title</h5>
+                                                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </perfect-scrollbar>
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
             </div>
