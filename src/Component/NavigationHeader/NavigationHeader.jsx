@@ -14,7 +14,7 @@ export default class NavigationHeader extends Component {
             <ul className="navbar-nav h6 ml-auto">
 
               <li className="nav-item active">
-                <a className="nav-link" href="#">All Ads <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="/Search">All Ads <span className="sr-only">(current)</span></a>
               </li>
 
               <li className="nav-item active">
