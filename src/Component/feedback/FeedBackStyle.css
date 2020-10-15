@@ -1,0 +1,30 @@
+.parent{
+    
+    height: 100vh;
+    margin-bottom: 10vh;
+    
+}
+   
+
+.form{
+    background-color: #12E1A4;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10vh;
+    
+    padding: 5%;
+    box-shadow:10px 15px 25px gray;
+}
+.title{
+    text-align: center;
+}
+.dil{
+    background-color: #54FFAB;
+    border: 3px solid black;
+}  
+.btn-button{
+    
+    background-color: #ffbb43;
+    
+    margin-left: 40%;
+} 

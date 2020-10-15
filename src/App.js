@@ -11,10 +11,15 @@ import Editprofile from './Component/Myaccount/Editprofile/Editprofile';
 import Favorits from './Component/Myaccount/Favorits/Favorits';
 import Manageads from './Component/Myaccount/Manage my ads/Manageads';
 import Mystatistics from './Component/Myaccount/Mystatistics/Mystatistics';
-/**Avinash**/
-import Forgot from './Component/forgot/ForgetBody';
-import Home from './Component/home/body/Body';
+
+/** Avinash**/
 import Search from './Component/search/Search';
+
+/** Dilanka**/
+import FeedBack from './Component/feedback/FeedBack';
+import SignUp from './Component/signUp/SignUp';
+import HowToSellFast from './Component/HowToSellFast/HowToSellFast';
+
 function App() {
   return (
     <div className="App">
@@ -31,14 +36,14 @@ function App() {
 
             <Route exact path='/Search' component={Search} />
 
-
+            <Route exact path='/feedback' component={FeedBack} />
+            <Route exact path='/sign' component={SignUp} />
+            <Route exact path='/sellfast' component={HowToSellFast}/>
             <Route component={Maincomponent}></Route>
           </Switch>
           <Footer />
         </Router>
       </React.Fragment>
-
-
     </div>
   );
 }

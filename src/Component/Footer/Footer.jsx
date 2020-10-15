@@ -33,7 +33,7 @@ const Footer = () => {
                 <h5 className="title ml-2">Tips & Help</h5>
                 <ul className="col-auto justify-content-center" >
                 <li className="list-unstyled mt-3">
-                    <a href="#!">How to Sell Fast</a>
+                    <a href="/sellfast">How to Sell Fast</a>
                   </li>
                   <li className="list-unstyled ">
                     <a href="#!">About Us</a>
