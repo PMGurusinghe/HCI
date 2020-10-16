@@ -1,9 +1,15 @@
 .serch-container {
-    background-color: #e1e6eb;
-    
+    background-image: url(../images/search2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
 .serch-container > div{
     text-align: center;
     font-size: 15px; 
 }   
+
+select{
+    width: 20%;
+}
+

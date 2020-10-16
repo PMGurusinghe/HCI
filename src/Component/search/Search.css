@@ -1,0 +1,120 @@
+
+.body_add {
+
+    background-color: rgb(198, 204, 196);
+    height: 550px;
+    width: 360px;
+    border: 4px solid #000000;
+    float: left ;
+    margin: 8px;
+    padding: 0%;
+    
+    
+
+
+  
+
+}
+.body_addAll{
+
+    margin: 10px;
+    padding-left:330px;
+    right: 100px;
+
+    
+
+}
+.imgclass{
+
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.body1{
+
+    width: 100%;
+    height: 50%;
+    
+
+}
+.brand{
+
+
+    width: 250px;
+    height: 200px;
+    background-color: rgba(88, 175, 6, 0.616);
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+
+
+
+}
+
+  
+
+.filter{
+
+    display: block;
+    color:black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.Price{
+
+    width: 250px;
+    height: 150px;
+    background-color: rgba(88, 175, 6, 0.616);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+
+.selctbox{
+
+    width: 180px;
+   
+}
+.districtContain{
+
+
+    width: 250px;
+    height: 100px;
+    background-color: rgba(88, 175, 6, 0.616);
+    position: relative;
+    border-radius: 20px;
+    
+}
+.district{
+
+    position: absolute;
+    right: 15%;
+    bottom: 25%;
+   
+}
+.container2{
+
+position: relative;
+left: 10px;
+top: 0;
+width: 550px;
+height: 690px;
+
+
+
+
+
+}
+
+.container3{
+    position: absolute;
+    left: 10px;
+    top: 10px;   
+    
+}
