@@ -15,7 +15,7 @@ const Card = (props) => {
         <h4 className="cardharitha-title">{props.title}</h4>
         <p className="cardharitha-text text-body">{props.paragraph}
         </p>
-        <a href="#" className="btn btn-outline-success">
+        <a href="/Search" className="btn btn-outline-success">
           Let's find
         </a>
       </div>

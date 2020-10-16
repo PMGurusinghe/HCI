@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "./CardUI";
-import Carousel from "./Carousel"
-import Button from "./Buttons"
+
 import NavigationHeader from "../NavigationHeader/NavigationHeader";
+import Carousel from "../MainHomePage/Carousel"
 
 import img1 from "../images/cardImage1.jpg";
 import img2 from "../images/cardImage2.jpg";
@@ -40,11 +40,10 @@ class Cards extends Component {
           <div className="col-md-4">
             <Card imgsrc={img6} title="Properties" paragraph="We help you to find your dream home"/>
           </div>
+          
+          
         </div>
       </div>
-      <div>
-          <Button/>
-        </div>
       </div>
     );
   }
