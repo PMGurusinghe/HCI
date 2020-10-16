@@ -37,7 +37,7 @@ export default class NavigationHeader extends Component {
                 <a className="nav-link text-warning" href="#">Sign In<span className="sr-only">(current)</span></a>
               </li>
 
-              <button type="button" className="btn btn-warning" href="#"> POST YOUR AD</button>
+              <a href ="/post-ad"><button type="button" className="btn btn-warning" >POST YOUR AD</button></a>
 
             </ul>
           </div>

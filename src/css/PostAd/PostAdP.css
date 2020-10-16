@@ -1,0 +1,22 @@
+.body {
+    background-color: #d7f3e5;
+}
+
+.secondHeader {
+    margin-left: 100px;
+}
+
+.PayForm {
+    width : 45%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .4);
+    box-shadow: 2px 4px 6px 2px rgba(0,0,0.5,0.3);
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+
+}
+
+

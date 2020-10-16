@@ -12,6 +12,12 @@ import Favorits from './Component/Myaccount/Favorits/Favorits';
 import Manageads from './Component/Myaccount/Manage my ads/Manageads';
 import Mystatistics from './Component/Myaccount/Mystatistics/Mystatistics';
 
+/*Gimhan*/
+import PostAd from './Component/PostAd/PostAd'
+import PostAdR from './Component/PostAd/PostAdR'
+import PostAdP from './Component/PostAd/PostAdP'
+import AboutUs from './Component/AboutUs/AboutUs'
+
 /** Avinash**/
 //import Forgot from './Component/forgot/ForgetBody';
 //import Home from './Component/home/body/Body';
@@ -41,7 +47,13 @@ function App() {
             <Route exact path='/feedback' component={FeedBack} />
             <Route exact path='/sign' component={SignUp} />
             <Route exact path='/sellfast' component={HowToSellFast}/>
+            <Route exact path='/post-ad' component={PostAd}/>
+            <Route exact path='/post-ad2' component={PostAdR}/>
+            <Route exact path='/post-ad3' component={PostAdP}/>
+            <Route exact path='/about-us' component={AboutUs}/>
             <Route component={Maincomponent}></Route>
+
+            
           </Switch>
           <Footer />
         </Router>

@@ -36,7 +36,7 @@ const Footer = () => {
                     <a href="/sellfast">How to Sell Fast</a>
                   </li>
                   <li className="list-unstyled ">
-                    <a href="#!">About Us</a>
+                    <a href="/about-us">About Us</a>
                   </li>
                   <li className="list-unstyled">
                     <a href="#!">Contact Us</a>
