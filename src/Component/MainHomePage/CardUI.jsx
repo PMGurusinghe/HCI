@@ -7,13 +7,13 @@ const Card = (props) => {
 
 <div className="home" >
 
-    <div className="card text-center">
+    <div className="cardharitha text-center">
       <div className="overflow">
         <img src={props.imgsrc} alt="Image 1"className="card-img-top" />
       </div>
-      <div className="card-body texr-dark">
-        <h4 className="card-title">{props.title}</h4>
-        <p className="card-text text-body">{props.paragraph}
+      <div className="cardharitha-body texr-dark">
+        <h4 className="cardharitha-title">{props.title}</h4>
+        <p className="cardharitha-text text-body">{props.paragraph}
         </p>
         <a href="#" className="btn btn-outline-success">
           Let's find

@@ -45,7 +45,7 @@ const Footer = () => {
                     <a href="#!">Blog</a>
                   </li>
                   <li className="list-unstyled">
-                    <a href="#!">Help</a>
+                    <a href="/Card">Help</a>
                   </li>
                 </ul>
               </MDBCol>

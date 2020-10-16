@@ -6,11 +6,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';   
 
-import Card from './Component/MainHomePage/Cards'
-import logedHome from './Component/MainHomePage/LogedHome'
-
-ReactDOM.render(<logedHome/>,document.getElementById('root'));
-ReactDOM.render(<Card/>,document.getElementById('root')
+ReactDOM.render(
+<Router>
+    <App />
+    </Router>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

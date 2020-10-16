@@ -1,8 +1,4 @@
-body{
-    background: radial-gradient(#cacaca,#ffffff,#cacaca)
-}
-
-.card{
+.cardharitha{
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 1rem;
@@ -10,15 +6,15 @@ body{
     background: radial-gradient(#dad6d6,#fffffffd,#dad6d6)
 }
 
-.card:hover{
+.cardharitha:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,253)!important;
 }
 
-.card-body{
+.cardharitha-body{
     padding:1rem 0 !important;
 }
 
-.card-text{
+.cardharitha-text{
     font-size: 0.9rem;
     padding: 0.4rem 1.9rem;
 }
@@ -31,12 +27,12 @@ body{
     overflow:hidden;
 }
 
-.card-img-top{
+.cardharitha-img-top{
     transform:scale(1);
     transition: all 1.5s ease;
 }
 
-.card-img-top:hover{
+.cardharitha-img-top:hover{
     transform:scale(1.8);
 }
 

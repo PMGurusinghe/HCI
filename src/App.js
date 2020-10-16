@@ -21,8 +21,11 @@ import SignUp from './Component/signUp/SignUp';
 import HowToSellFast from './Component/HowToSellFast/HowToSellFast';
 
 /**Haritha**/
-import Card from './Component/MainHomePage/CardUI';
-import logedHome from './Component/MainHomePage/LogedHome';
+//import CardUI from './Component/MainHomePage/Cards';
+//import logedHome from './Component/MainHomePage/LogedHome';
+
+import Card from './Component/MainHomePage/Cards'
+//import logedHome from './Component/MainHomePage/LogedHome'
 
 function App() {
   return (
@@ -44,8 +47,7 @@ function App() {
             <Route exact path='/sign' component={SignUp} />
             <Route exact path='/sellfast' component={HowToSellFast}/>
 
-            <Route exact path='/LogedHome' component={logedHome}/>
-            <Route exact path='/MainHome' component={Card}/>
+            <Route exact path='/Card' component={Card}/>
             
             <Route component={Maincomponent}></Route>
           </Switch>
