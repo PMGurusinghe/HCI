@@ -10,7 +10,7 @@ import Maincomponent from './Component/Maincomponent';
 import Editprofile from './Component/Myaccount/Editprofile/Editprofile';
 import Favorits from './Component/Myaccount/Favorits/Favorits';
 import Manageads from './Component/Myaccount/Manage my ads/Manageads';
-import Mystatistics from './Component/Myaccount/Mystatistics/Mystatistics';
+
 
 /*Gimhan*/
 import PostAd from './Component/PostAd/PostAd'
@@ -22,11 +22,17 @@ import AboutUs from './Component/AboutUs/AboutUs'
 //import Forgot from './Component/forgot/ForgetBody';
 //import Home from './Component/home/body/Body';
 import Search from './Component/search/Search';
+import forgot from './Component/forgot/ForgetBody';
+import Body from './Component/home/body/Body';
 
 /** Dilanka**/
 import FeedBack from './Component/feedback/FeedBack';
 import SignUp from './Component/signUp/SignUp';
 import HowToSellFast from './Component/HowToSellFast/HowToSellFast';
+
+/**Haritha**/
+import Card from './Component/MainHomePage/Cards';
+import Terms from './Component/Terms/Terms';
 
 function App() {
   return (
@@ -35,14 +41,18 @@ function App() {
         <NavigationHeader />
         <Router>
           <Switch>
-            <Route exact path='/' component={Viewad} />
+            <Route exact path='/' component={Card}/>
+
+            <Route exact path='/Viewad' component={Viewad} />
             <Route exact path='/Myaccount' component={Myaccount} />
             <Route exact path='/Editprofile' component={Editprofile} />
             <Route exact path='/Favorits' component={Favorits} />
             <Route exact path='/Manageads' component={Manageads} />
-            <Route exact path='/Mystatistics' component={Mystatistics} />
+
 
             <Route exact path='/Search' component={Search} />
+            <Route exact path='/forgot' component={forgot} />
+            <Route exact path='/Body' component={Body} />
 
             <Route exact path='/feedback' component={FeedBack} />
             <Route exact path='/sign' component={SignUp} />
@@ -51,6 +61,10 @@ function App() {
             <Route exact path='/post-ad2' component={PostAdR}/>
             <Route exact path='/post-ad3' component={PostAdP}/>
             <Route exact path='/about-us' component={AboutUs}/>
+
+            <Route exact path='/Terms' component={Terms}/>
+
+
             <Route component={Maincomponent}></Route>
 
             

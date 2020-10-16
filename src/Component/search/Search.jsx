@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Search.css";
 import { Slider } from "@material-ui/core";
 import Select1 from "./select";
-
 import { Card, CardDeck } from "react-bootstrap";
 
 export default class Search extends Component {
@@ -189,23 +188,24 @@ return <h1>asd</h1>
 }
 
     return (
-      <div>
+      <div className='container-fluid'>
         <div className="body_addAll">
+          <a href='/Viewad'>
           <div className="body_add" style={{ display: this.state.displayAudi}}>
             <div className="body1">
               <img className="imgclass" src={require("./auduiA4.jpg")} />
             </div>
             <div className="body2">
-              <h1 name="title">Audi A4</h1>
+              <h1 name="title">Velar R Dynamic HSE 240</h1>
               <h2 name="title">Rs 200</h2>
-              <p>
+              <p>2018 Range Rover Velar R Dynamic HSE 240 D
                 Full Option Auto, Tiptronic, Paddle Shift Alloys Multi Function
                 Winker Mirrors Black Interior Leather Electric Dual Seats Teak
                 Panel 1St Owner 50000Kms Done Only
               </p>
             </div>
           </div>
-
+          </a>
           <div className="body_add"  style={{ display: this.state.displayToyota}}>
             <div className="body1">
               <img className="imgclass" src={require("./toyotaCHR.jpg")} />
@@ -235,76 +235,8 @@ return <h1>asd</h1>
               </p>
             </div>
           </div>
-          <div className="body_add" style={{ display: this.state.displayOther}}>
-            <div className="body1">
-              <img className="imgclass" src={require("./LandRoverRange.jpg")} />
-            </div>
-            <div className="body2">
-              <h1 name="title">Land Rover Range</h1>
-              <h2 name="title">Rs 980</h2>
-              <p>
-                BRAND NEW RANGE ROVER SPORT P400E HSE DYNAMIC VELOCITY BLUE
-                (PREMIUM PAINT) REAR ENTERTAINMENT SIDE STEP BLACK TWO TONE SOFT
-                CLOSE DOOR LED HEADLIGHTS TOUCH
-              </p>
-            </div>
-          </div>
-          <div className="body_add" style={{ display: this.state.displayOther}}>
-            <div className="body1">
-              <img className="imgclass" src={require("./MINI.jpg")} />
-            </div>
-            <div className="body2">
-              <h1 name="title">Mini Countryman</h1>
-              <h2 name="title">Rs 950</h2>
-              <p>
-                FIVE DOOR 1200CC TWIN TURBO 17” BLACK ALLOY WHEELS 21000KM DONE
-                PUSH START, AMBIENT LIGHTS, AUTO ENGINE STOP, SENSORS, IN BUILT
-                MINI SOUNDS USB/AUX/BT SIX FORWARD TRIP TONIC GEARS WITH SPORT
-                OPTION, MINT CONDITION
-              </p>
-            </div>
-          </div>
-          <div className="body_add" style={{ display: this.state.displayOther}}>
-            <div className="body1">
-              <img className="imgclass" src={require("./mazda.jpg")} />
-            </div>
-            <div className="body2">
-              <h1 name="title"> Mazda Axela 2014</h1>
-              <h2 name="title">Rs 960</h2>
-              <p>
-                Dual zone AC controller,Push start,Intelligent key,Adaptive
-                front lighting system,Reverse camera,Traction control,Rain
-                sensing vipers,Sky active hybrid technology
-              </p>
-            </div>
-          </div>
-          <div className="body_add" style={{ display: this.state.displayBMW}}>
-            <div className="body1">
-              <img className="imgclass" src={require("./BMWX2.jpg")} />
-            </div>
-            <div className="body2">
-              <h1 name="title"> BMW X2 </h1>
-              <h2 name="title">Rs 600</h2>
-              <p>
-                push start Multifuntion Cruise control Electric seats Memory
-                seats Leather seats Day time runnig system lights Four way
-                camera Bmw original player Triptonic gears Led scoop lights
-              </p>
-            </div>
-          </div>
-          <div className="body_add" style={{ display: this.state.displayBajaj}}>
-            <div className="body1">
-              <img className="imgclass" src={require("./Bajajtuk.jpg")} />
-            </div>
-            <div className="body2">
-              <h1 name="title">Bajaj RE</h1>
-              <h2 name="title">Rs 100</h2>
-              <p>
-                හොඳින් කියවා බලා පමණක් අමතන්න ඔරිජිනල් පේන්ට් ඔරිජිනල් තට්ටුව
-                අලුත් ටයර් සම්පූර්ණ ලියකියවිලි එන්ජිම100%👍 දිරුම් කිසිවක් නොමැත
-              </p>
-            </div>
-          </div>
+          
+         
         </div>
 
         <div className="container2">
@@ -316,7 +248,7 @@ return <h1>asd</h1>
               </label>
               <label className="filter">
                 <input type="checkbox" className="check" name="vehicle1" defaultChecked="true" onClick={handleCheckAudi}/>
-                Audi
+                RangeRover
               </label>
               <label className="filter">
                 <input type="checkbox" className="check" name="vehicle1" defaultChecked="true" onClick={handleCheckToyota} />

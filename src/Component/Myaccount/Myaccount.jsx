@@ -98,7 +98,9 @@ class Myaccount extends Component {
                             <div className="jumbotron text-center mt-5 ml-5 mr-5">
                                 <h2>Do you have something to sell?</h2>
                                 <h3>Post your ad on ikman.lk</h3>
+                                <a href='/post-ad'>
                                 <button type="button" className="btn btn-warning mt-4"><h6>Post Your Ad Here</h6></button>
+                                </a>
                             </div>
                             </div>
                             <div className="row">

@@ -14,6 +14,10 @@ export default class NavigationHeader extends Component {
             <ul className="navbar-nav h6 ml-auto">
 
               <li className="nav-item active">
+                <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+              </li>
+
+              <li className="nav-item active">
                 <a className="nav-link" href="/Search">All Ads <span className="sr-only">(current)</span></a>
               </li>
 
@@ -22,7 +26,7 @@ export default class NavigationHeader extends Component {
               </li>
 
               <li className="nav-item active">
-                <a className="nav-link" href="#">About Us <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="/about-us">About Us <span className="sr-only">(current)</span></a>
               </li>
 
               <li className="nav-item active">
@@ -34,7 +38,7 @@ export default class NavigationHeader extends Component {
               </li>
 
               <li className="nav-item active mr-3">
-                <a className="nav-link text-warning" href="#">Sign In<span className="sr-only">(current)</span></a>
+                <a className="nav-link text-warning" href="/Body">Sign In<span className="sr-only">(current)</span></a>
               </li>
 
               <a href ="/post-ad"><button type="button" className="btn btn-warning" >POST YOUR AD</button></a>

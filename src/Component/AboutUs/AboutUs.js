@@ -26,13 +26,13 @@ export default function postAd() {
                                     <hr/>
                                     <li class="list-group-item"><a href = "/sellfast" style = {{'color' : '#FCD12A'}}>How to Sell Fast</a></li>
                                     <hr/>
-                                    <li class="list-group-item"><a href = "#!" style = {{'color' : '#FCD12A'}}>Contact Us</a></li>
+                                    <li class="list-group-item"><a href = "/feedback" style = {{'color' : '#FCD12A'}}>Contact Us</a></li>
                                     <hr/>
                                     <li class="list-group-item"><a href = "#!" style = {{'color' : '#FCD12A'}}>Blog</a></li>
                                     <hr/>
                                     <li class="list-group-item"><a href = "#!" style = {{'color' : '#FCD12A'}}>Help</a></li>
                                     <hr/>
-                                    <li class="list-group-item"><a href = "#!" style = {{'color' : '#FCD12A'}}>Privacy Policy</a></li>
+                                    <li class="list-group-item"><a href = "/Terms" style = {{'color' : '#FCD12A'}}>Privacy Policy</a></li>
                                 </ul>
                             </div>
                             
@@ -44,7 +44,7 @@ export default function postAd() {
                                     <p className="card-text">It takes less than 2 minutes to post an ad on vikka.lk. You can sign up for a free account and post ads easily every time.</p>
                                     <p className="card-text">vikka.lk has the widest selection of popular second hand items all over Sri Lanka, which makes it easy to find exactly what you are looking for. So if you're looking for a car, mobile phone, house, computer or maybe a pet, you will find the best deal on vikka.lk.</p>
                                     <p className="card-text">vikka.lk does not specialize in any specific category - here you can buy and sell items in more than 50 different categories. We also carefully review all ads that are being published, to make sure the quality is up to our standards.</p>
-                                    <p className="card-text">If you'd like to get in touch with us, go to <a href = "#!" style = {{'color' : '#E4CD05'}}>Contact us</a>.</p><br/>
+                                    <p className="card-text">If you'd like to get in touch with us, go to <a href = "/feedback" style = {{'color' : '#E4CD05'}}>Contact us</a>.</p><br/>
                                 </div>
 
                         </div>
