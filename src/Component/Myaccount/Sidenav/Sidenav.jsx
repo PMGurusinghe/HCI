@@ -17,7 +17,6 @@ class sidenav extends Component {
                 <li> <a href="/Editprofile">Edit Profile</a> </li>
                 <li> <a href="/Favorits">Favorites</a> </li>
                 <li> <a href="/Manageads">Manage My Ads</a> </li>
-                <li> <a href="/Mystatistics">My Statistic</a> </li>
             </ul>
           
         </nav>

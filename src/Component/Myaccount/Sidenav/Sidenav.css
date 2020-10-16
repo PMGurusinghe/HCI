@@ -39,7 +39,6 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    max-height:auto;
     min-height: fit-content;
     background: #343A40;
     color: #fff;
@@ -89,13 +88,6 @@ a[data-toggle="collapse"] {
     position: relative
 }
 
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%)
-}
 
 ul ul a {
     font-size: 0.9em !important;

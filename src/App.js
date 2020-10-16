@@ -10,15 +10,21 @@ import Maincomponent from './Component/Maincomponent';
 import Editprofile from './Component/Myaccount/Editprofile/Editprofile';
 import Favorits from './Component/Myaccount/Favorits/Favorits';
 import Manageads from './Component/Myaccount/Manage my ads/Manageads';
-import Mystatistics from './Component/Myaccount/Mystatistics/Mystatistics';
+
 
 /** Avinash**/
 import Search from './Component/search/Search';
+import forgot from './Component/forgot/ForgetBody';
+import Body from './Component/home/body/Body';
 
 /** Dilanka**/
 import FeedBack from './Component/feedback/FeedBack';
 import SignUp from './Component/signUp/SignUp';
 import HowToSellFast from './Component/HowToSellFast/HowToSellFast';
+
+/**Haritha**/
+import Card from './Component/MainHomePage/Cards';
+import Terms from './Component/Terms/Terms';
 
 function App() {
   return (
@@ -27,18 +33,26 @@ function App() {
         <NavigationHeader />
         <Router>
           <Switch>
-            <Route exact path='/' component={Viewad} />
+            <Route exact path='/' component={Card}/>
+
+            <Route exact path='/Viewad' component={Viewad} />
             <Route exact path='/Myaccount' component={Myaccount} />
             <Route exact path='/Editprofile' component={Editprofile} />
             <Route exact path='/Favorits' component={Favorits} />
             <Route exact path='/Manageads' component={Manageads} />
-            <Route exact path='/Mystatistics' component={Mystatistics} />
+
 
             <Route exact path='/Search' component={Search} />
+            <Route exact path='/forgot' component={forgot} />
+            <Route exact path='/Body' component={Body} />
 
             <Route exact path='/feedback' component={FeedBack} />
             <Route exact path='/sign' component={SignUp} />
             <Route exact path='/sellfast' component={HowToSellFast}/>
+
+            <Route exact path='/Terms' component={Terms}/>
+
+
             <Route component={Maincomponent}></Route>
           </Switch>
           <Footer />

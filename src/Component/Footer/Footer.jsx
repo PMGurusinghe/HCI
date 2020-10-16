@@ -39,13 +39,7 @@ const Footer = () => {
                     <a href="#!">About Us</a>
                   </li>
                   <li className="list-unstyled">
-                    <a href="#!">Contact Us</a>
-                  </li>
-                  <li className="list-unstyled">
-                    <a href="#!">Blog</a>
-                  </li>
-                  <li className="list-unstyled">
-                    <a href="#!">Help</a>
+                    <a href="/feedback">Contact Us</a>
                   </li>
                 </ul>
               </MDBCol>
@@ -53,27 +47,19 @@ const Footer = () => {
                 <h5 className="title ml-2">Legal Bits</h5>
                 <ul className="col-auto justify-content-center">
                   <li className="list-unstyled mt-3">
-                    <a href="#!">Terms of Use</a>
+                    <a href="/Terms">Terms of Use</a>
                   </li>
-                  <li className="list-unstyled">
-                    <a href="#!">Privacy Policy</a>
-                  </li>
-                  <li className="list-unstyled">
-                    <a href="#!">Posting Policy</a>
-                  </li>
-                  <li className="list-unstyled">
-                    <a href="#!">Cookie Policy</a>
-                  </li>
+                
                 </ul>
               </MDBCol>
               <MDBCol md="2">
                 <h5 className="title ml-2">Navigation</h5>
                 <ul className="col-auto justify-content-centre">
                   <li className="list-unstyled mt-3">
-                    <a href="#!">My Profile</a>
+                    <a href="/Myaccount">My Profile</a>
                   </li>
                   <li className="list-unstyled">
-                    <a href="#!">Contact Us</a>
+                    <a href="/feedback">Contact Us</a>
                   </li>
                   <li className="list-unstyled">
                     <a href="#!">Post Your Ad</a>
